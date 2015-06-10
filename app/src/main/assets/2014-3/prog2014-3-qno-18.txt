@@ -1,0 +1,5 @@
+f (x, y, a, b)
+{
+   if (x is 1) y = a;
+   else y = b;
+}

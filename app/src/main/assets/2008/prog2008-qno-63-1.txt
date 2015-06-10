@@ -1,0 +1,4 @@
+P(s) : s =  s - 1;
+  if (s  < 0) then wait;
+V(s) : s = s + 1;
+  if (s <= 0) then wakeup a process waiting on s;

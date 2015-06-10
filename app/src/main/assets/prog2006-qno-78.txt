@@ -1,0 +1,13 @@
+void barrier (void) {
+1:   P(S);
+2:   process_arrived++;
+3.   V(S);
+4:   while (process_arrived !=3);
+5:   P(S);
+6:   process_left++;
+7:   if (process_left==3) {
+8:      process_arrived = 0;
+9:      process_left = 0;
+10:  }
+11:  V(S);
+}

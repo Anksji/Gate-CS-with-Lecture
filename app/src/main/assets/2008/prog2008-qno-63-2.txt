@@ -1,0 +1,12 @@
+$P(s)$ : $P_b(X_b)$;
+  s = s - 1;
+  if (s < 0) {
+   $V_b(X_b)$ ;
+   $P_b(Y_b)$ ;
+  }
+  else $V_b(X_b)$;
+
+$V(s)$ : $P_b(X_b)$ ;
+  s = s + 1;
+  if (s <= 0) $V_b(Y_b)$ ;
+  $V_b(X_b)$ ;

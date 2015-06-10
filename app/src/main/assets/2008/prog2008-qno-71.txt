@@ -1,0 +1,8 @@
+double ARR[1024][1024];
+int i, j;
+ 
+// Initialize array ARR to 0.0
+
+for(i = 0; i < 1024; i++)
+    for(j = 0; j < 1024; j++)
+        ARR[i][j] = 0.0;

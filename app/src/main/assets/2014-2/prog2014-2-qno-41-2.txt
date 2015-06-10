@@ -1,0 +1,11 @@
+Void consumer( )
+{
+  while(true)
+  {
+  semWait (s) ;
+  semWait (n) ;
+  removeFromBuffer ( ) ;
+  semsignal (s);
+  consume ( ) ;
+  }
+}

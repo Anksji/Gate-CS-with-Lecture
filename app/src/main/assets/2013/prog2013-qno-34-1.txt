@@ -1,0 +1,6 @@
+
+private i;
+for (i=0; i < n; i++) {
+   a[i] = f(i); 
+   ExitX(R, S);
+}  

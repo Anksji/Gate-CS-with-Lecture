@@ -1,0 +1,7 @@
+SQL> SELECT last-name, hire-date
+     FROM employees
+     WHERE (dept-id, hire-date) IN
+     (SELECT dept-id, MAX(hire-date)
+     FROM employees JOIN departments USING(dept-id)
+     WHERE location-id = 1700
+     GROUP BY dept-id); 

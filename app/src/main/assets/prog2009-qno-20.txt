@@ -1,0 +1,10 @@
+&lt;table border=1&gt;
+    &lt;tr&gt; &lt;td rowspan=2&gt; ab &lt;/td&gt;
+      &lt;td colspan=2&gt; cd &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; ef &lt;/td&gt;
+      &lt;td rowspan=2&gt; gh &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt; &lt;td colspan=2&gt; ik &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;

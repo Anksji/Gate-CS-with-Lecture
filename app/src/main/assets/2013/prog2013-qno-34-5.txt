@@ -1,0 +1,8 @@
+ExitX(R, S) {
+  P(S);
+  V(R);
+}
+EntryY(R, S) {
+  V(S);
+  P(R);
+}

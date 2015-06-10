@@ -1,0 +1,6 @@
+ 
+private i;
+  for (i=0; i < n; i++) {
+       EntryY(R, S);
+       b[i]=g(a[i]);
+   }

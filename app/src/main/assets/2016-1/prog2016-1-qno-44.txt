@@ -1,0 +1,13 @@
+n (n>=1).
+    int max(int*p,intn)
+    {
+      int a=0,b=n-1;
+      while (__________)
+      {
+         if (p[a]<=p[b])
+            {a=a+1;}
+         else
+            {b=b-1;}
+      }
+           return p[a];
+    }

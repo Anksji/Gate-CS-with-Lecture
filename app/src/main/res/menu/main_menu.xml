@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context="com.rson.brothers.toolbar.MainActivity"
+
+        >
+
+    <item android:id="@+id/quest"
+        android:title="@string/next"
+        android:orderInCategory="100"
+        android:icon="@drawable/question"
+        app:showAsAction="always"/>
+        <item android:id="@+id/pallet"
+            android:title="@string/next"
+            android:orderInCategory="100"
+            android:icon="@drawable/palletbutton"
+            app:showAsAction="always"/>
+    <item android:id="@+id/backbutton"
+        android:title="@string/next"
+        android:orderInCategory="100"
+        android:icon="@drawable/back_button"
+        app:showAsAction="always"/>
+    <item android:id="@+id/next"
+        android:title="@string/next"
+        android:orderInCategory="100"
+        android:icon="@drawable/nextpencile_button"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/calculator"
+        android:title="@string/next"
+        android:orderInCategory="100"
+        android:icon="@drawable/calculater"
+        app:showAsAction="always"/>
+
+
+
+</menu>

@@ -1,0 +1,7 @@
+DOSOMETHING (c, a, n)
+z ← 1
+for i ← 0 to k - 1
+    do z ← $z^2$ mod n
+    if c[i] = 1
+       then z ← (z × a) mod n
+return z 

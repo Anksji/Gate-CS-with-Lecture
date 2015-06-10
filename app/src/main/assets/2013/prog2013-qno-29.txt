@@ -1,0 +1,7 @@
+MultiDequeue (Q) {
+    m = k
+ while (Q is not empty) and (m > 0) {
+        Dequeue Q
+        m = m-1
+    }
+}

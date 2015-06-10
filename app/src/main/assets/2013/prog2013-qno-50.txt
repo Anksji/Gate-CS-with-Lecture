@@ -1,0 +1,11 @@
+ c = a + b;
+   d = c * a;
+   e = c + a;
+   x = c * c;
+   if (x > a) {
+      y = a * a;
+   }
+   else {
+     d = d * d;
+     e = e * e;
+  }

@@ -1,0 +1,16 @@
+Query1: 
+select student from enrolled where 
+student in (select student from paid)
+
+Query2: 
+select student from paid where 
+ student in (select student from enrolled)
+
+Query3: 
+select E.student from enrolled E, paid P 
+where E.student = P.student
+
+Query4: 
+select student from paid where exists
+(select * from enrolled where enrolled.student
+         = paid.student) 

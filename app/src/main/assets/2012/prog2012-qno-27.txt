@@ -1,0 +1,13 @@
+int height (treeptr n)
+{ if (n== NULL) return -1;
+if (n→left == NULL)
+
+if (n→right ==NULL) return 0;
+else return    <B>B1;</B>
+else {h1 = height (n → left);
+if (n→right == NULL) return (1+ h1);
+else {h2 = height (n → right);
+return    <B>B2;</B>
+	}
+       }
+}

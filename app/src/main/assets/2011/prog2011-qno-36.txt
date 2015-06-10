@@ -1,0 +1,8 @@
+SELECT count(*)
+FROM(
+(SELECT Borrower. Bank_Manager 
+    FROM Loan_Records) AS S
+NATURAL JOIN
+(SELECT Bank_Manager, Loan_Amount 
+     FROM Loan_Records) AS T
+ );

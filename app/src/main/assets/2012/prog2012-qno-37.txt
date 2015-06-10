@@ -1,0 +1,16 @@
+Program main;
+      Var . . .
+    Procedure A1;
+      Var . . .
+      Call A2;
+    End A1
+    Procedure A2;
+      Var . . .
+    Procedure A21;
+      Var . . .
+      Call A1;
+    End A21
+      Call A21;
+    End A2
+    Call A1;
+End main.

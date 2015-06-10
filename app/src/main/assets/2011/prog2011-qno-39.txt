@@ -1,0 +1,9 @@
+Initialize the address register
+
+      Initialize the count to 500
+LOOP: Load a byte from device
+      Store in memory at address
+      given by address register
+      Increment the address register
+      Decrement the count
+      If count != 0 go to LOOP

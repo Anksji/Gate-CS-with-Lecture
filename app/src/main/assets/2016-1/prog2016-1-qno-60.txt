@@ -1,0 +1,14 @@
+do {
+    c[i]=1;
+    t[i]= pmax(t[0],....,t[n-1])+1;
+    c[i]=0;
+    for every j ≠ i in{0,....,n-1}
+     {
+      while (c[j]);
+       while (t[j] !=0
+            && t[j] < = t[i]);
+     }
+        Critical Section;
+        t[i]=0;
+        Remainder Section;
+} while(true);

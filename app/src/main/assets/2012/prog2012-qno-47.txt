@@ -1,0 +1,8 @@
+<B>$T_1$ :</B> read (P) ;
+    read (Q) ;
+      if  P = 0 then Q : = Q + 1;
+    write (Q).
+<B>$T_2$ :</B> read (Q) ;
+    read (P)
+     if  Q = 0 then P : = P + 1;
+    write (P).

@@ -1,0 +1,8 @@
+void foo (char *a)
+{
+  if (*a && *a != ` `)
+  { 
+     foo(a+1);
+     putchar(*a);
+  }
+}

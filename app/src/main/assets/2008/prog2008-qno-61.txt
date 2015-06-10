@@ -1,0 +1,13 @@
+void reverse(void)
+ {
+  int c;
+  if (?1) reverse();
+  ?2
+}
+ main()
+{
+  printf ("Enter Text ") ;
+  printf ("\n") ;
+  reverse();
+  printf ("\n") ;
+}

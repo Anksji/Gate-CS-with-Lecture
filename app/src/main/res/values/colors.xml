@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#37474F</color>
+    <color name="colorAccent">#58df75</color>
+    <color name="your_color">#3ed43b</color>
+
+    <color name="my_list_back">#c5fafa</color>
+    <color name="calculator_background">#2196F3</color>
+    <color name="calculator_foreground">#bfc8d1</color>
+    <color name="calculator_color">#1c1d1d</color>
+    <color name="calculator_screen">#d1e3e7</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="primary_text">#212121</color>
+
+    <color name="pressed_color">#d49890</color>
+    <color name="default_color">#8488ce</color>
+</resources>
+

@@ -1,0 +1,11 @@
+int exp(int X, int Y)
+ {
+    int res = 1, a = X, b = Y;
+
+    while (b!=0)
+    {
+        if (b%2==0){a=a*a;b=b/2;}
+        else {res=res*a;b=b-1;}
+    }
+        return res;
+ }

@@ -1,0 +1,7 @@
+AcquireLock(L){
+    While (Fetch_And_Add(L,1))
+           L = 1;
+}
+Release Lock(L){
+           L = 0;
+}

@@ -1,0 +1,13 @@
+/*other codefor processY*/
+ while (true)
+ {
+    varQ= true;
+  while (var P== true)
+  {
+  / *Criticalsection*/
+   varQ=false;
+  }
+
+
+}
+ /*other codefor processY*/

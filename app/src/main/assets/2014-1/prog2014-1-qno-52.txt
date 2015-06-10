@@ -1,0 +1,5 @@
+D = 2
+for i = 1 to n do
+   for j = i to n do
+      for k = j + 1 to n do
+           D = D * 3 

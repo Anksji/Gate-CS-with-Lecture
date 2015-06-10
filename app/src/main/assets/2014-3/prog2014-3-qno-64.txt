@@ -1,0 +1,6 @@
+SELECT empName
+       FROM employee E
+       WHERE NOT EXISTS (SELECT custId
+       FROM customer C
+       WHERE C.salesRepId = E.empId
+       AND C.rating < > "GOOD");

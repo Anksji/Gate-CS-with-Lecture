@@ -1,0 +1,5 @@
+SELECT A.Id
+ FROM A
+   WHERE A.Age > ALL(SELECT B.Age
+     FROM B
+     WHERE B.Name = "Arun")

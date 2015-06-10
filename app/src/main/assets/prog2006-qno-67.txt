@@ -1,0 +1,11 @@
+Query1:
+  select A.customer, count(B.customer)
+  from account A, account B
+  where A.balance <=B.balance
+  group by A.customer
+
+Query2:
+  select A.customer, 1+count(B.customer)
+  from account A, account B
+  where A.balance < B.balance
+  group by A.customer 

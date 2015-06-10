@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f7f7"
+    tools:context="com.rson.brothers.gatecswithlecture.BookCollection">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_marginTop="10dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+
+
+            <!-- 8 line-->
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Inspiring Thoughts "
+                    android:id="@+id/textrow8"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="60dp"
+                    android:textColor="#000"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:id="@+id/bookinforow8"
+                    android:background="@drawable/bookinfo2"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webViewrow8"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webView2row8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignLeft="@+id/webViewrow8"
+                    android:layout_alignParentLeft="true"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <!--9 line -->
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="The Secret by Rhonda Byrne "
+                    android:id="@+id/textrow9"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="60dp"
+                    android:textColor="#000"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:id="@+id/bookinforow9"
+                    android:background="@drawable/bookinfo2"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webViewrow9"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webView2row9"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignLeft="@+id/webViewrow9"
+                    android:layout_alignParentLeft="true"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <!-- 10 line -->
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="You Can Win"
+                    android:id="@+id/textrow10"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="60dp"
+                    android:textColor="#000"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:id="@+id/bookinforow10"
+                    android:background="@drawable/bookinfo2"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webViewrow10"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webView2row10"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignLeft="@+id/webViewrow10"
+                    android:layout_alignParentLeft="true"
+                    />
+
+
+            </RelativeLayout>
+
+
+
+            <!-- 11 line -->
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Awaken the Giant Within by Anthony Robbins"
+                    android:id="@+id/textrow11"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="60dp"
+                    android:textColor="#000"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:id="@+id/bookinforow11"
+                    android:background="@drawable/bookinfo2"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webViewrow11"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webView2row11"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignLeft="@+id/webViewrow11"
+                    android:layout_alignParentLeft="true"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <!-- 12 line -->
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="The Alchemist in English and Hindi (Best Book)"
+                    android:id="@+id/textrow12"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="60dp"
+                    android:textColor="#000"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:id="@+id/bookinforow12"
+                    android:background="@drawable/bookinfo2"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webViewrow12"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webView2row12"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignLeft="@+id/webViewrow12"
+                    android:layout_alignParentLeft="true"
+                    />
+
+
+            </RelativeLayout>
+
+
+
+            <!-- 13 line -->
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Think and Grow Rich by Napoleon Hill"
+                    android:id="@+id/textrow13"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="60dp"
+                    android:textColor="#000"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:id="@+id/bookinforow13"
+                    android:background="@drawable/bookinfo2"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webViewrow13"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webView2row13"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignLeft="@+id/webViewrow13"
+                    android:layout_alignParentLeft="true"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <!--14 line -->
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Steve Jobs by Walter Isaacson"
+                    android:id="@+id/textrow14"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="60dp"
+                    android:textColor="#000"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:id="@+id/bookinforow14"
+                    android:background="@drawable/bookinfo2"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webViewrow14"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webView2row14"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignLeft="@+id/webViewrow14"
+                    android:layout_alignParentLeft="true"
+                    />
+
+
+            </RelativeLayout>
+
+
+
+            <!--15 line -->
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="The 7 Habits of Highly Effective People"
+                    android:id="@+id/textrow15"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="60dp"
+                    android:textColor="#000"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:id="@+id/bookinforow15"
+                    android:background="@drawable/bookinfo2"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                >
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webViewrow15"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+
+
+                <WebView
+                    android:layout_width="235px"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/webView2row15"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignLeft="@+id/webViewrow15"
+                    android:layout_alignParentLeft="true"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <!--16 line -->
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

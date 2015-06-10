@@ -1,0 +1,453 @@
+<resources>
+    <string name="app_name">Gate CS with Lecture</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="next">Next</string>
+
+    <string-array name="Question_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="YearWise">
+
+        <item>2016 - (I)</item>
+        <item>2016 - (II)</item>
+        <item>2015 - (I)</item>
+        <item>2015 - (II)</item>
+        <item>2015 - (III)</item>
+        <item>2014 - (I)</item>
+        <item>2014 - (II)</item>
+        <item>2014 - (III)</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+
+    </string-array>
+    <string-array name="Topic">
+        <item>Maths</item>
+        <item>Theory of Computation</item>
+        <item>Compiler</item>
+        <item>Computer Network</item>
+        <item>Programing and Data Structure</item>
+        <item>Algorithm</item>
+        <item>Operating System</item>
+        <item>Database</item>
+        <item>Computer Organization</item>
+        <item>Digital</item>
+        <item>Aptitude</item>
+        <item>Other Subject</item>
+    </string-array>
+    <string name="title_activity_pallet">Pallet</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="no_text"> </string>
+    <string name="rcl">RCL</string>
+    <string name="sto">STO</string>
+
+    <string name="m_minus">M-</string>
+
+    <string name="shift">SHIFT</string>
+    <string name="rad">RAD</string>
+    <string name="abs">ABS</string>
+    <string name="mr">MR</string>
+    <string name="ms">MS</string>
+    <string name="m_plus">M+</string>
+    <string name="inverse_sin">sin1</string>
+    <string name="inverse_cos">cos1</string>
+    <string name="inverse_tan">tan1</string>
+    <string name="expo">ex</string>
+    <string name="ten_power">10x</string>
+    <string name="rnd">rnd</string>
+    <string name="sin_sign">sin</string>
+    <string name="cos_sign">cos</string>
+    <string name="tan_sign">tan</string>
+    <string name="natural_log">log2</string>
+    <string name="log">log</string>
+    <string name="cube_root">3?</string>
+    <string name="cube">x3</string>
+    <string name="one_over_x">1/x</string>
+    <string name="x_power_y">Yx</string>
+    <string name="square_root">/</string>
+    <string name="x_square">x^2</string>
+    <string name="percent">mod</string>
+    <string name="open_bracket">(</string>
+    <string name="close_bracket">)</string>
+    <string name="seven_button">7</string>
+    <string name="eight_button">8</string>
+    <string name="nine_button">9</string>
+    <string name="single_delete">del</string>
+    <string name="clear">AC</string>
+    <string name="factorial">n!</string>
+    <string name="combination">c(n,r)</string>
+    <string name="permutation">p(n,r)</string>
+    <string name="rate">Rate</string>
+    <string name="four_button">4</string>
+    <string name="five_button">5</string>
+    <string name="six_button">6</string>
+    <string name="multiplication">x</string>
+    <string name="division">/</string>
+    <string name="pi">ii</string>
+    <string name="e">e</string>
+    <string name="comma">,</string>
+    <string name="one_button">1</string>
+    <string name="two_button">2</string>
+    <string name="three_button">3</string>
+    <string name="addition">+</string>
+    <string name="subtraction">-</string>
+    <string name="zero_button">0</string>
+    <string name="dot">.</string>
+    <string name="exp">exp</string>
+    <string name="ans">Ans</string>
+    <string name="equal_sign">=</string>
+    <string name="x_value">x</string>
+    <string name="plus_minus">+/-</string>
+    <string name="plot">Plot</string>
+    <string name="asterisk">*</string>
+
+
+    <string name="tan_inverse">tan-1</string>
+    <string name="sin_inverse">sin-1</string>
+    <string name="cos_inverse">cos-1</string>
+    <string name="xcube">x3</string>
+    <string name="xcube_root">3√</string>
+    <string name="one_by_x">1/x</string>
+    <string name="nfacorial">n!</string>
+    <string name="pie">π</string>
+    <string name="expon">e</string>
+    <string name="title_activity_calculate">Calculate</string>
+
+
+    <string name="instruction1">General Instructions during Test</string>
+    <string name="instruction">Total duration of the GATE examination is 180 minutes that is displayed at top left corner of screen.
+        Time taken in one question is also displayed at top right corner of screen.\n</string>
+    <string name="instructionrough">We have provided 10 rough pages for rough work, with all the quesitons. And all
+        rough pages are cleared after moving next 2 questions. \n</string>
+    <string name="instructioncalculator">we have provided Scientific Calculator you can use that or any other calculator during test.
+    Calculator can be opend on clicking Calculator icon on top right corner of screen.\n</string>
+    <string name="instruction_pallet">The Question Palette displayed on the right side of screen will show the status of
+each question using one of the following symbols:\n</string>
+    <string name="instruction_pallet1">You have not visited the question yet</string>
+    <string name="instruction_pallet2">You have not answered the question</string>
+    <string name="instruction_pallet3">You have answered the question</string>
+    <string name="instruction_pallet4">You have Not answered but marked for review</string>
+    <string name="instruction_pallet5">You have Answered but marked for review</string>
+    <string name="instruction_pallet6">\nThe Marked for Review status for a question simply indicates that you would like to look at
+that question again. If a question is answered, but marked for review, then the answer will
+be considered for evaluation unless the status is modified by the candidate.</string>
+    <string name="instruction_navigation">To answer a question, do the following:\n</string>
+    <string name="navigation_first">Click on the question number in the Question Palette to go to that question
+directly.\n</string>
+    <string name="navigation_second">Select an answer for a multiple choice type question by clicking on the bubble
+placed before the 4 choices, namely A, B, C and D. Use the virtual numeric
+keypad to enter a number as answer for a numerical type question.\n</string>
+    <string name="navigation_third">Click on Next to save your answer for the current question and then go
+to the next question.\n</string>
+    <string name="navigation_fourth">Click on Review to save your answer for the current question
+and also mark it for review, and then go to the next question.\n</string>
+    <string name="navigation_caution">Caution: Note that your answer for the current question will not be saved, if you navigate
+to another question directly by clicking on a question number without saving the answer to
+the previous question.\n</string>
+    <string name="answer_aquestion">Procedure for answering a multiple choice (MCQ) type question:\n</string>
+    <string name="answer_first">Choose one answer from the 4 options (A,B,C,D) given below the question,
+click on the bubble placed before the chosen option.\n</string>
+    <string name="answer_second">To deselect your chosen answer, click on the bubble of the chosen option again
+or click on the Clear button.\n</string>
+    <string name="answer_third">To change your chosen answer, click on the bubble of another option.\n</string>
+    <string name="answer_fourth">To save your answer, you MUST click on the Next button.\n</string>
+
+    <string name="answer_subjective">Procedure for answering a numerical answer type question:\n</string>
+    <string name="subjective_first">To enter a number as your answer, use the virtual numerical keypad.\n
+    </string>
+    <string name="subjective_second">A fraction (e.g. -0.3 or -.3) can be entered as an answer with or without 0
+before the decimal point. As many as four decimal points, e.g. 12.5435 or
+0.003 or -932.6711 or 12.82 can be entered.\n</string>
+    <string name="subjective_third">To clear your answer, click on the Clear button.\n</string>
+    <string name="subjective_fourth">To save your answer, you MUST click on the Next button\n</string>
+
+    <string name="marked_answered">To mark a question for review, click on the Mark for Review button. If an
+answer is selected (for MCQ) or entered (for numerical answer type) for a question
+that is Marked for Review, that answer will be considered in the evaluation unless
+the status is modified by the candidate.\n</string>
+    <string name="next_instruction">To change your answer to a question that has already been answered, first select
+that question for answering and then follow the procedure for answering that type of
+question.\n</string>
+    <string name="next2_instruction">Note that ONLY Questions for which answers are saved or marked for review after
+answering will be considered for evaluation.\n</string>
+
+
+    <string-array name="topic_name">
+        <item>Syllabus</item>
+        <item>Pattern of Question Papers and Marking Scheme</item>
+        <item>Structure of GATE Exam</item>
+        <item>GATE Score Card</item>
+        <item>FAQ about Application Process GATE</item>
+        <item>FAQ about GATE Examination</item>
+        <item>FAQ about GATE Admit Card</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="topic_description">
+
+        <item>
+            <u>Section1: Engineering $$ $$ Mathematics $$ $$</u>
+            <u>underline</u>
+Discrete Mathematics: Propositional and first order logic. Sets, relations, functions, partial orders and lattices. Groups. Graphs: connectivity, matching, coloring. Combinatorics: counting, recurrence relations, generating functions.
+Linear Algebra: Matrices, determinants, system of linear equations, eigenvalues and eigenvectors, LU decomposition.
+Calculus: Limits, continuity and differentiability. Maxima and minima. Mean value theorem. Integration.
+Probability: Random variables. Uniform, normal, exponential, poisson and binomial distributions. Mean, median, mode and standard deviation. Conditional probability and Bayes theorem.
+Computer Science and Information Technology $$ $$
+Section 2: Digital Logic$$ $$
+Boolean algebra. Combinational and sequential circuits. Minimization. Number representations and computer arithmetic (fixed and floating point).
+$$ $$Section 3: Computer Organization and Architecture$$ $$
+Machine instructions and addressing modes. ALU, data‐path and control unit. Instruction pipelining. Memory hierarchy: cache, main memory and secondary storage; I/O interface (interrupt and DMA mode).
+$$ $$Section 4: Programming and Data Structures$$ $$
+Programming in C. Recursion. Arrays, stacks, queues, linked lists, trees, binary search trees, binary heaps, graphs.
+$$ $$Section 5: Algorithms$$ $$
+Searching, sorting, hashing. Asymptotic worst case time and space complexity. Algorithm design techniques: greedy, dynamic programming and divide‐and‐conquer. Graph search, minimum spanning trees, shortest paths.
+$$ $$Section 6: Theory of Computation$$ $$
+Regular expressions and finite automata. Context-free grammars and push-down automata. Regular and contex-free languages, pumping lemma. Turing machines and undecidability.
+$$ $$Section 7: Compiler Design$$ $$
+Lexical analysis, parsing, syntax-directed translation. Runtime environments. Intermediate code generation.
+$$ $$Section 8: Operating System$$ $$
+Processes, threads, inter‐process communication, concurrency and synchronization. Deadlock. CPU scheduling. Memory management and virtual memory. File systems.
+        $$ $$Section 9: Databases$$ $$
+ER‐model. Relational model: relational algebra, tuple calculus, SQL. Integrity constraints, normal forms. File organization, indexing (e.g., B and B+ trees). Transactions and concurrency control.
+$$ $$Section 10: Computer Networks$$ $$
+Concept of layering. LAN technologies (Ethernet). Flow and error control techniques, switching. IPv4/IPv6, routers and routing algorithms (distance vector, link state). TCP/UDP and sockets, congestion control. Application layer protocols (DNS, SMTP, POP, FTP, HTTP). Basics of Wi-Fi.
+            Network security: authentication, basics of public key and private key cryptography, digital signatures and certificates, firewalls.
+        </item>
+
+
+        <item>Pattern of Question Papers$$ $$
+            In all the papers, there will be a total of 65 questions carrying 100 marks, out of which 10 questions carrying a total of 15 marks are in General Aptitude (GA).
+In the papers bearing the codes AE, AG, BT, CE, CH, CS, EC, EE, IN, ME, MN, MT, PE, PI, TF and XE, the Engineering Mathematics will carry around 15 percent of the total marks, the General Aptitude section will carry 15 percent of the total marks and the remaining
+            70 percent percentage of the total marks is devoted to the subject of the paper.
+In the papers bearing the codes AR, CY, EY, GG, MA, PH and XL, the General Aptitude section will carry 15 percent of the total marks and the remaining 85 percent of the total marks is devoted to the subject of the paper.
+$$ $$GATE 2016 would contain questions of two different types in various papers:$$ $$
+(i) Multiple Choice Questions (MCQ) carrying 1 or 2 marks each in all papers and sections. These questions are objective in nature, and each will have a choice of four answers, out of which the candidate has to mark the correct answer(s).
+$$ $$(ii) Numerical Answer Questions of 1 or 2 marks each in all papers and sections. For these questions the answer is a real number, to be entered by the candidate using the virtual keypad. No choices will be shown for this type of questions.
+$$ $$Design of Questions
+        $$ $$The questions in a paper may be designed to test the following abilities:
+        $$ $$(i) Recall: These are based on facts, principles, formulae or laws of the discipline of the paper. The candidate is expected to be able to obtain the answer either from his/her memory of the subject or at most from a one-line computation.
+    $$ $$(ii) Comprehension: These questions will test the candidate’s understanding of the basics of his/her field, by requiring him/her to draw simple conclusions from fundamental ideas.
+    $$ $$(iii) Application: In these questions, the candidate is expected to apply his/her knowledge either through computation or by logical reasoning.
+   $$ $$(iv) Analysis and Synthesis: In these questions, the candidate is presented with data, diagrams, images etc. that require analysis before a question can be answered. A Synthesis question might require the candidate to compare two or more pieces of information. Questions in this category could, for example, involve candidates in recognising unstated assumptions, or separating useful information from irrelevant information.
+
+        $$ $$Marking Scheme:
+        $$ $$For 1-mark multiple-choice questions, 1/3 marks will be deducted for a wrong answer. Likewise, for 2-marks multiple-choice questions, 2/3 marks will be deducted for a wrong answer. There is no negative marking for numerical answer type questions.
+        $$ $$-General Aptitude (GA) Questions:
+        $$ $$In all papers, GA questions carry a total of 15 marks. The GA section includes 5 questions carrying 1 mark each (sub-total 5 marks) and 5 questions carrying 2 marks each (sub-total 10 marks).
+        $$ $$-Question Papers other than GG, XE and XL:
+        $$ $$These papers would contain 25 questions carrying 1 mark each (sub-total 25 marks) and 30 questions carrying 2 marks each (sub-total 60 marks). The question paper will consist of questions of multiple choice and numerical answer type. For numerical answer questions, choices will not be given. Candidates have to enter the answer (which will be a real number, signed or unsigned, e.g. 25.06, -25.06, 25, -25 etc.) using a virtual keypad. An appropriate range will be considered while evaluating the numerical answer type questions so that the candidate is not penalized due to the usual round-off errors.
+    $$ $$-Note on Negative Marking for Wrong Answers:
+        $$ $$For a wrong answer chosen for the multiple choice questions, there would be negative marking. For 1-mark multiple choice questions, 1/3 mark will be deducted for a wrong answer. Likewise, for 2-mark multiple choice questions, 2/3 mark will be deducted for a wrong answer. However, there is no negative marking for a wrong answer in numerical answer type questions.
+
+        </item>
+
+        <item>Structure of GATE 2016:$$ $$
+            GATE 2016 will be conducted in the subjects (also referred to as “papers”) shown in Table below Candidates must familiarize with the paper code for the paper of their choice, as this knowledge will be required at the time of application form submission and appearing for the examination. A candidate is allowed to appear in ONLY ONE paper.
+Since a candidate is allowed to appear in ONLY ONE of the 23 papers for which GATE 2016 examination is being held, the candidate has to make the choice of the paper he/she wishes to write carefully. Table below gives the list of GATE papers and paper codes for GATE 2016.
+The candidate is expected to appear in a paper appropriate to the discipline of his/her qualifying degree. However, the candidate is, free to choose any paper according to his/her admission plan, keeping in mind the eligibility criteria of the institutions in which he/she wishes to seek admission. For more details regarding the admission criteria in any particular institute, the candidate is advised to refer to the websites of that institute.
+       $$ $$ Duration and Examination Type:
+$$ $$The GATE examination consists of a single paper of 3-hour duration that contains 65 questions carrying a maximum of 100 marks. The question paper will consist of both multiple choice questions (MCQ) and numerical answer type questions.
+The examination for all the papers will be carried out in an ONLINE Computer Based Test (CBT) mode where the candidates will be shown the questions in a random sequence on a computer screen. The candidates are required to either select the answer (for MCQ type) or enter the answer for numerical answer type question using a mouse on a virtual keyboard (keyboard of the computer will be disabled). Candidates will be provided with blank paper sheets for rough work and these have to be returned back after the examination. At the end of the 3-hour window, the computer will automatically close the screen from further actions.
+        </item>
+        <item>
+            After the declaration of the results, candidates can download their GATE 2016 Score Card for the paper (for which he/she has taken the examination). The score cards will be issued to all qualified candidates.
+$$ $$The GATE 2016 Committee has the authority to decide the qualifying mark/score for each GATE paper. In case any claim or dispute arises in respect of GATE 2016, it is hereby made absolutely clear that the Courts and Tribunals in Bangalore and Bangalore alone shall have the exclusive jurisdiction to entertain and settle any such dispute or claim.
+            $$ $$Calculation of GATE 2016 Score:$$ $$
+            Calculation of Normalized Marks for CE, CS, EC, EE and ME papers
+In 2016, examination for CE, CS, EC, EE and ME papers is being held in multi-sessions. Hence, for these papers, a suitable normalization is applied to take into account any variation in the difficulty levels of the question papers across different sessions. The normalization is done based on the fundamental assumption that “in all multi-session GATE papers, the distribution of abilities of candidates is the same across all the sessions”. This assumption is justified since the number of candidates appearing in multi-session papers in GATE 2016 is large and the procedure of allocation of session to candidates is random. Further it is also ensured that for the same multi-session paper, the number of candidates allotted in each session is of the same order of magnitude.
+Based on the above, and considering various normalization methods, the committee arrived at the following formula for calculating the normalized marks, for CE, CS, EC, EE and ME papers.
+            $$ $$Normalized Mark of $j^{th}$ candidate in $i^{th}$ session $M↖{∧}_{ij}$ is given by:$$ $$
+                $$ $$  $M↖{∧}_{ij}$=${M↖{-}^g_{t} - M^g_{q}}/{M↖{-}_{ti}-M_{iq}}(M_{ij}-M_{iq})+M^g_{q}$
+            $$ $$where,$$ $$
+            $M_{ij}$ the actual marks obtained by the $j^{th}$ candidate in $i^{th}$ $$ $$
+            $M↖{-}^g_{t}$ is the average marks of the top 0.1 percent of the candidates considering all sessions
+            $$ $$ $M^g_{q}$ is the sum of mean and standard deviation marks of the candidates in the paper considering all sessions
+            $$ $$ $M↖{-}_{ti}$ is the average marks of the top 0.1 percent of the candidates in the $i^{th}$ session
+            $$ $$ $M_{iq}$ the sum of the mean marks and standard deviation of the $i^{th}$ session
+
+            $$ $$After the evaluation of the answers, normalized marks based on the above formula will be calculated corresponding to the
+            raw marks obtained by a candidate for CE, CS, EC, EE and ME papers and the GATE 2016 Score will be calculated based on the
+            normalized marks. For all other papers, actual marks obtained will be used for calculating the GATE 2016 Score.
+
+
+        </item>
+        <item>
+            01: How do I apply ONLINE?
+            $$ $$Answer: Go to the link "How to apply", in gate.iisc.ernet.in read the instruction and apply using the link provided in the main page.
+        $$ $$02: Can I use one e-mail address to fill multiple application forms?
+            $$ $$Answer: NO, one e-mail address can be used to submit only one application form.
+            $$ $$03: Why should I choose three examination cities?
+            $$ $$Answer: Generally, you will be allotted a centre in the examination city of your first choice. Only in cases where it becomes difficult to accommodate you in the examination city of your first choice, your
+            other two choices will be considered. A candidate is required to fill his/her primary as well as secondary choices, but should remember that because of operational constraints, the GATE committee reserves the right to add a new city or remove an existing one, and allot a city that may not be any of the choices of a candidate.
+        $$ $$04: My power/internet connection failed during the application process, what do I do?
+            $$ $$Answer: If you have clicked on the “Save” button during the application process, the data you entered up to that point of time has been stored online. Simply login back to the GATE 2016 application
+            website and continue the application process. Otherwise, you have to start the process afresh.
+            $$ $$05: You are asking only the SC/ST/PwD candidates to upload the category certificate. What about the OBC (non-creamy layer) candidates? Do they have to upload the category certificate too?
+            $$ $$Answer: No. Category certificate is required at this stage only to claim the concessional rate for the application fee. The category of the candidate has been captured for general information purpose only. The GATE scorecard displays the marks/score obtained by the candidate and the category- wise cut-off. However, you have to produce the
+            category certificate to the admitting institute at the time of admission to justify your claim of belonging to the respective category.
+       $$ $$06: How do I make the fee payment for GATE 2016 examination?
+            $$ $$Answer: You can make the payment during the ONLINE application process by choosing the following option:
+        $$ $$a). Online Payment: Net Banking through the payment gateway.
+        $$ $$b). e-challan : e-challan of State Bank of India.
+            $$ $$07: If I want the Online Payment (Net-banking) option, how should I complete the application process?
+            $$ $$Answer: After filling all the fields in the ONLINE application form, choose the Online Payment option and proceed for payment by following the instructions.
+Your browser screen will re-direct you to the bank you choose. Login with your Internet Banking credentials and confirm the payment. After confirming the payment, you will be re-directed back to the GATE 2016 application website. At the end of this process, you can download a PDF file will be generated with the necessary details of the candidates, like full name, date of birth (DoB), scanned photograph, sex, category (GE/OBC/SC/ST),
+            PwD (Y/N). full contact address, mobile number, email id, etc. Take a printout of the entire PDF file for your future reference/use.
+
+       $$ $$08: My power/internet connection failed during online payment. What do I do?
+        $$ $$Answer: When you can get back online, first check the status of your payment on the GATE application website.
+$$ $$a) If the payment was received by GATE, you can continue the process of printing the application form.
+$$ $$b) If the payment was not received by GATE, you have to start with the payment step again, to complete payment.
+            $$ $$9: My net banking account has been debited (money taken out) more than once. How do I get the money back?
+            $$ $$Answer: This can happen if your bank account was used more than once or you pressed refresh or back/forward button of
+            your internet browser. Any unaccounted or excess money that was received on behalf of GATE 2016 from this account will
+            automatically be returned (credited) to the same bank account.
+            $$ $$10: My bank account has been debited (money taken out), but GATE Application website says that the payment has not been received. What do I do?
+            $$ $$Answer: This happens because of some failure in internet transactions (including failure of internet connection at your end). Within 72 Hr. GATE Application website shows that the payment is sucess, You will be charged only once. Any excess/unaccounted debits will be returned to you.
+            $$ $$11: If I want the Bank challan option, how should I complete the application process?
+            $$ $$Answer: If you select the e-challan option, then you will have to print the generated challan and will have to go to a branch of the State Bank of India and pay.
+      $$ $$12: Do I have to send the print-out of the application form?
+            $$ $$Answer: NO
+            $$ $$13: When and how will I know the status of my application?
+            $$ $$Answer: You can check the status of your application by logging onto GOAPS website
+            $$ $$14: After completing the ONLINE application process and generating a PDF file, will I be able to change my application data?
+            $$ $$Answer: NO. After completing all the steps upto PDF application form generation in the ONLINE application process, you can only
+            download the application form and CANNOT modify the data. Hence you need to be very careful while entering the data. You may also
+            save a partially filled application and login in again at a later point in time to complete and submit the application, however it
+            must be within the specified deadline
+            $$ $$15: I have missed to take a print-out of my ONLINE application at the end of my application process. How will I get access to it?
+            $$ $$Answer: You can login using GOAPS Enrolment ID and password and take a printout.
+        </item>
+        <item>
+            01: For how many GATE papers can I apply?
+            $$ $$Answer: A candidate can apply for only ONE of the 23 papers listed in the GATE INFORMATION BROCHURE or GATE website. The choice of the appropriate paper is the responsibility of the candidate. Some guidelines in this respect are suggested below.
+$$ $$1. The candidate is expected to appear in a paper appropriate to the discipline of his/her qualifying degree.
+$$ $$2. The candidate is, however, free to choose any paper according to his/her admission plan, keeping in mind the eligibility criteria of the institutions in which he/she wishes to seek admission
+        $$ $$02: After submission of application, am I permitted to change my GATE Examination Paper and Examination City?
+            $$ $$Answer: It is not possible to change the GATE examination paper after the application is submitted. Please select your choice of examination paper carefully. Requests for change of examination city will be accepted till 20th  November, 2015 with a fee of Rs. 400/-(four hundred only) to be paid online using GOAPS. Online payment for this purpose will be enabled in GOAPS after October 15, 2015.
+       $$ $$03: Will I be provided with any white paper for rough work and calculations during the test?
+            $$ $$Answer: A scribble pad will be provided to the candidate that can be used to do the rough work. The candidate has to return the scribble pad after the examination.
+        $$ $$04: Am I allowed to leave the examination hall during the test?
+            $$ $$Answer: NO. Candidates will NOT be allowed to leave the examination hall for any reason during the test. Candidates are allowed to leave the computer laboratory where the exam will be conducted only after the closure of the test at the scheduled end of examination in a session.
+       $$ $$05: What items are not permitted to be brought with me inside the examination venue?
+            $$ $$Answer: Electronic diary, mobile phone, and any such electronic gadgets, blank papers, clip boards and log-tables will not be allowed in the examination venue.
+       $$ $$06: Can I use a calculator during the examination?
+            $$ $$Answer: No.  An online virtual calculator will be available to examinees at the time of examination.
+            $$ $$07: Will there be any arrangement at the test center for the safe keeping of my personal items such as my mobile phone?
+            $$ $$Answer: NO. Such arrangements will not be possible at the test center.
+        </item>
+        <item>
+
+            $$ $$01: When will I receive my admit card?
+           $$ $$ Answer: Admit card can only be downloaded from the GOAPS website from —-. Admit Cards will NOT be sent by post.
+$$ $$02: Is the Admit card alone sufficient to gain entry to the exam?
+            $$ $$Answer:
+No. Bring the Admit Card at the test center along with at least one original (not photocopied/scanned copy) and valid (not expired) photo identification, whose details have been entered while filling the application. ONLY one of the following photo identifications is permitted: Driving license, Passport, PAN Card, Voter ID, Aadhaar UID, College ID, Employee Identification Card, or a Notarized Affidavit with Photo, Signature, Date of Birth and Residential Address. Photocopies of the identification document are not acceptable.
+            Candidates will not be permitted to take the exam if the original and valid photo identification is not presented.
+
+        </item>
+    </string-array>
+
+
+    <string-array name="About">
+        <item>App Features</item>
+        <item>Upcoming features </item>
+        <item>Our Team</item>
+        <item>Suggestion</item>
+    </string-array>
+
+    <string-array name="About_description">
+        <item> Offline mock test series on Previous Gate Paper
+$$ $$User friendly.
+$$ $$You can access question subject wise as well as year wise.
+$$ $$Timer is setting during test and another timer also tells that how much time takes in one question.
+$$ $$We have provided the scientific calculator and rough pages you can use it during test.
+$$ $$ After the test you can see your result and review to analyze your performance and trying to upgrade it.
+            $$ $$ We have provided the Video lectures  on Core Computer science subjects and also mentioned the
+            importance of Video through GATE perspective.
+            $$ $$ We have also provided some motivational videos.
+            $$ $$ Rating is assigned to each video which tells the importance of that video in GATE exam
+            $$ $$ Triple Star Shows that is important video that is in the course, Double Star shows intermediate level of importance
+            and Single star means that video is not in GATE Syllabus but for your concept building and more information you can watch
+            those videos.
+            $$ $$ In future Version we provide more videos related to computer science branch.
+</item>
+        <item>After some time we will provide explanation of all the questions and
+we start discussion forum.
+</item>
+        <item>Concept :-
+$$ $$Ankit Dwivedi, Ashkrit tiwari, Amit Dwivedi.
+$$ $$Coder and Developer :-
+$$ $$Ankit Dwivedi
+$$ $$Tester :-
+$$ $$Ashkrit Tiwari(Prominent), Amit Dwivedi, Ankit Dwivedi, Bharat Lalwani.
+$$ $$Supporters, Advertisers and Promoters:-
+$$ $$Bharat Lalwani, Amit Dwivedi, Vivek kushwaha, ChandraKant Sukla, Vinay Gautam,
+            Prabhat Dwivedi, Prashant Singh, Tarang Chaurasiya, Aman anand.
+</item>
+        <item>If you have any suggestion you can mail us on our mail ID RsonsDevelopers@gmail.com
+            Or if you have facing any kind of problem while using app then also you can mail us on mentioned mail id.</item>
+    </string-array>
+
+
+
+    <string name="title_activity_add_view">AddView</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+
+    <!--
+    This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+    For more information, see https://support.google.com/admob/answer/3052638
+    -->
+
+    <string name="banner_home_footer">ca-app-pub-4278759037869606/5653791371</string>
+
+
+
+
+    <string name="info">ca-app-pub-6416702975493032/6305880100</string>
+
+    <string name="info_back">ca-app-pub-4278759037869606/9944390176</string>
+
+
+    <string name="select_teacher">ca-app-pub-6416702975493032/3212812902</string>
+    <string name="teacher_select_class">ca-app-pub-6416702975493032/5247949303</string>
+    <string name="question_review_banner">ca-app-pub-6416702975493032/2294482902</string>
+    <string name="video_sub_menu">ca-app-pub-6416702975493032/5387550107</string>
+    <string name="video_main_Menu">ca-app-pub-6416702975493032/9957350505</string>
+    <string name="interstrial_during_video_play">ca-app-pub-6416702975493032/7003884108</string>
+    <string name="banner_during_question_paper">ca-app-pub-6416702975493032/1096951308</string>
+    <string name="test_result">ca-app-pub-6416702975493032/4190018505</string>
+    <string name="result_banner">ca-app-pub-6416702975493032/8759818905</string>
+    <string name="audio_play_interestrial">ca-app-pub-6416702975493032/6364755704</string>
+    <string name="audio_play">ca-app-pub-6416702975493032/4888022502</string>
+    <string name="main_activity_banner">ca-app-pub-6416702975493032/1934556106</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-6416702975493032/7981089704</string>
+    <string name="start_test">ca-app-pub-6416702975493032/6504356503</string>
+    <string name="calculator_class">ca-app-pub-6416702975493032/9457822906</string>
+    <string name="aboutus">ca-app-pub-6416702975493032/5306824905</string>
+    <string name="instruction_class">ca-app-pub-6416702975493032/2074156902</string>
+
+
+
+</resources>

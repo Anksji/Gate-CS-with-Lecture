@@ -1,0 +1,23 @@
+/* This function computes the roots 
+of a quadratic equation a.x^2+b.x+c=0.
+The function stores two real roots
+in *root1 and *root2 and returns the 
+status of validity of roots. 
+It handles four different
+kinds of cases.
+i.  When coefficient a is zero 
+    irrespective of discriminant
+ii. When discriminant is positive
+iii. When discrimanant is zero
+iv. When discrimanant is negative
+Only in cases (ii) and (iii) ,
+the stored roots are valid.
+Otherwise 0 is stored in the
+ roots. the function returns
+0 when the roots are valid
+and -1 otherwise. The functin
+ also ensures root1>=root2.
+int  get_QuadRoots float a,
+( float b, float c,
+ float *root1, float *root2);
+* /

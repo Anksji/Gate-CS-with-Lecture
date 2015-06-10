@@ -1,0 +1,13 @@
+$Q_1$ :
+ Select e.empId
+    From employee e
+    Where not exists
+       (Select * From employee s
+	   where s.department = "5" and
+             s.salary >= e.salary)
+$Q_2$ :
+Select e.empId
+   From employee e
+  Where e.salary > Any
+  (Select distinct salary From employee s
+	  Where s.department = "5")

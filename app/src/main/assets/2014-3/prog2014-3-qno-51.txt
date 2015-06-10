@@ -1,0 +1,19 @@
+typedef struct treeNode* treeptr;
+struct treeNode
+{
+    treeptr leftMostChild, rightSibling;
+};
+int DoSomething (treeptr tree)
+{
+    int value=0;
+    if (tree != NULL)
+    {
+        if (tree->leftMostChild == NULL)
+            value = 1;
+        else
+     value = DoSomething(tree->leftMostChild);
+        value = value +
+      DoSomething(tree->rightSibling);
+    }
+    return(value);
+}

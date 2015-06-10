@@ -1,0 +1,14 @@
+Semaphore n = 0;
+Semaphore s = 1;
+
+Void producer ( )
+{ 
+ while (true)
+   {
+    Produce ( );
+    SemWait (s);
+    addToBuffer ( );
+    semSignal (s);
+    semSignal (n);
+   }
+}

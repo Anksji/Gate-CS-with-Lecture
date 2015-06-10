@@ -1,0 +1,5 @@
+Process 0
+---------
+  Entry: loopwhile(turn==1);
+    (critical section)
+  Exit: turn=1;

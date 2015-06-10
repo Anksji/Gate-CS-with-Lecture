@@ -1,0 +1,16 @@
+Initialize: xa, xb, ε, N     // ε = convergence indicator
+fb = f(xb) i = 0
+while (i < N and |fb| > ε) do
+   i = i + 1                 // update counter
+   xt = ?                    // missing expression for
+                             // intermediate value
+   xa = xb                   // reset xa
+   xb = xt                   // reset xb
+   fb = f(xb)                // function value at new xb
+end while
+if |fb| > ε
+  then // loop is terminated with i = N
+  write "Non-convergence"
+else
+  write "return xb"
+end if

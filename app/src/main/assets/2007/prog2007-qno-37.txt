@@ -1,0 +1,4 @@
+IF: Instruction Fetch
+ID: Instruction Decode and Operand Fetch
+EX: Execute
+WB: Write Back

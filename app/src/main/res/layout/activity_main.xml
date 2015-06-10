@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/my_list_back">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/myad">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:id="@+id/second_row"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/year_wise"
+                        android:id="@+id/button" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Year Wise"
+                        android:textColor="#000000"
+                        android:id="@+id/textView"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button1"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/topic_wise"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Topic Wise"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/textView1"
+
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/econd_row"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/video_lecture"
+                        android:background="@drawable/lectures"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Video Lectures"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/textView2"
+
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/info"
+                        android:background="@drawable/info"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Info"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/infomationText"
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/cond_row"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/bookstore"
+                        android:background="@drawable/book_icon"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book Store"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/bookstorenamw"
+
+                        android:layout_centerHorizontal="true" />
+
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/forum"
+                        android:background="@drawable/forum"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Forum"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/frequent"
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ond_row"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/audioRecorder"
+                        android:background="@drawable/audio_recording"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create Speech Notes"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/audioreco"
+
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/about_us"
+                        android:background="@drawable/aboutus"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="About Us"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/about"
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/end_row"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/web_blog"
+                        android:background="@drawable/blog"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Get The Best Deal"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/myblog"
+
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:id="@+id/official"
+                                android:background="@drawable/official"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="GATE-2017"
+                                android:textColor="#000000"
+                                android:layout_gravity="center_horizontal"
+                                android:id="@+id/moneytext"
+                                android:layout_centerHorizontal="true" />
+
+                        </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/adView">
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/myad"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Get ad free version and full access to Video Lectures"
+            android:id="@+id/myappads"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,12 @@
+with total(name, capacity) as
+	select district_name,
+		sum(capacity)
+	from water_schemes
+	groupby district_name
+with total_avg(capacity) as
+	select avg(capacity)
+	from total
+select name
+	from total, total_avg
+	where total.capacity ≥
+	 total_avg.capacity

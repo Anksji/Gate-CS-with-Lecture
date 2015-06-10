@@ -1,0 +1,11 @@
+C = 100;
+for i = 1 to n do
+    for j = 1 to n do
+    {
+        Temp = A[i][j] + C;
+        A[i][j] = A[j][i];
+        A[j][i] = Temp - C;
+    } 
+for i = 1 to n do
+    for j = 1 to n do
+        Output(A[i][j]);

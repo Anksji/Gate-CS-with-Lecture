@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fafafa"
+    tools:context="com.rson.brothers.gatecswithlecture.Forum"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:textColor="#000"
+    android:id="@+id/mytext"
+    android:textSize="25dp"
+    android:text="If You want to purchase a good Laptop or mobile phones at your budget, then you can tell us your budget and priority so that we can
+    suggest the best product on your budget. You can drop your mail at Rsonsdevelopers@gmail.com"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"
+       android:layout_below="@+id/mytext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+</RelativeLayout>

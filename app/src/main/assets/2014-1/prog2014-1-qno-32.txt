@@ -1,0 +1,16 @@
+S1: A foreign key declaration
+    can always be replaced by
+    an equivalent check
+    assertion in SQL.
+S2: Given the table R(a,b,c)
+    where a and b together
+    form the primary key, the
+      following is a valid
+      table definition.
+        CREATE TABLE S (
+            a INTEGER,
+            d INTEGER,
+            e INTEGER,
+            PRIMARY KEY (d),
+            FOREIGN KEY (a)
+            references R)

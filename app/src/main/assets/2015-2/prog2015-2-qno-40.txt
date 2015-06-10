@@ -1,0 +1,19 @@
+int kth_smallest (int a[],
+               int n, int k)
+{
+   int left_end = partition (a, n);
+   if (left_end+1==k)
+   {
+       return a [left_end];
+   }
+   if (left_end+1 > k)
+   {
+      return kth_smallest
+         (____________________);
+   }
+   else
+   {
+      return kth_smallest
+         (____________________);
+    }
+}

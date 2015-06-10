@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.rson.brothers.gatecswithlecture.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/Intro"
+    android:background="@color/my_list_back"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/not_visited3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Visited"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/not_answered1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Answered"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reviewmarked1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marked For Review"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/answeredmarked1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answered But Marked For Reivew"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/answered1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answered"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>
+
+    <GridView
+        android:layout_below="@+id/Intro"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridView"
+        android:background="#fbf1ebc6"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:columnWidth="50dp"
+        android:stretchMode="spacingWidthUniform"
+        ></GridView>
+</RelativeLayout>
