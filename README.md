@@ -12,17 +12,11 @@
 - Get the latest update related to the Gate exam.
 
 # App Screen Shot
-![screenshot](/screen/ss_1.jpg)
-![screenshot](/screen/ss_2.jpg)
-![screenshot](/screen/ss_3.jpg)
-![screenshot](/screen/ss_4.jpg)
-![screenshot](/screen/ss_5.jpg)
-![screenshot](/screen/ss_6.jpg)
-![screenshot](/screen/ss_7.jpg)
-![screenshot](/screen/ss_8.jpg)
-![screenshot](/screen/ss_9.jpg)
-![screenshot](/screen/ss_10.jpg)
+[![gate-cs-pro.jpg](https://i.postimg.cc/q7nW8jQR/gate-cs-pro.jpg)](https://postimg.cc/WDN9VmBL)
 
+
+##
+##
 
 MIT License
 
