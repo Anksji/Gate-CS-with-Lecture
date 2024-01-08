@@ -1,5 +1,5 @@
 # Gate Cs with lecture android app
-## 
+Android application developed by me, got over 50k downloads after its launch in google play store in just 6 months.
 
 ## App Features
 - Aspirants can appear in Gate Mock test year-wise as well as topic-wise in the app.
